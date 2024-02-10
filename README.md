@@ -52,8 +52,22 @@ Take note of the Resource Group and Virtual Network (Vnet) that get created at t
 
 <p>
 
-- After you fill out the necessary information along with your username and password(don't forget your username and password, you need it to log into your VM) click review/create wait for the validation process to complete, and click Create. 
+- After you fill out the necessary information (don't forget your username and password, you need it to log into your VM) click review/create wait for the validation process to complete, and click Create. 
 </p>
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/64d72967-cd5e-4861-89dc-6a5ff024a548)
 
+
+- The domain control's (DC-1), IP address must be set to static. 
+
+- To perform this step navigate to the network settings tab in DC-1. 
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/e7fda090-a22d-4f6d-8de6-8d3aac2f9803)
+
+- Click the Network interface: dc-1221_21
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/d85b342c-04c9-4f1a-ac0f-c69e40fc5097)
+
+- Click IP configuration.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/bf54e5f9-5c84-4a80-80b3-13850b8faba0)
