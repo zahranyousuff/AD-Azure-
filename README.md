@@ -88,3 +88,30 @@ Take note of the Resource Group and Virtual Network (Vnet) that get created at t
 - Once the process of creating your second VM is done, go to the Virtual Machine section and make sure you have two VMs.
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/52ba3a18-360f-4f6d-bf3b-c524a03f88cf)
+
+Ensure Connectivity between the client and Domain Controller
+
+
+- Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)
+
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/7cf33898-bb30-4eb3-90e6-450c059ddf7f)
+
+- Login into the Domain Controller and enable ICMPv4 on the local Windows firewall.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/21496fd4-16c9-476a-92e8-22ee9b33b441)
+
+- Go to the inbound rules list locate ICMPv4 echo and enable it.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/ce3d8820-70ef-4f8d-8742-018386d91bc6)
+
+- Check back at Client-1 to see the ping succeed
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/82768413-3708-443b-8111-be3895c2c50b)
+
+Install Active Directory
+
+
+- Go to DC-1 open Server Manager, and click on Add roles and features.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/a0adf369-3afc-4c98-91d0-7c5eabf5bd28)
