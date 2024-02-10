@@ -115,3 +115,19 @@ Install Active Directory
 - Go to DC-1 open Server Manager, and click on Add roles and features.
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/a0adf369-3afc-4c98-91d0-7c5eabf5bd28)
+
+- Select the destination server.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/bf83b623-6e69-4bd7-872a-b9ac24889ab4)
+
+- Select Active Directory Domain Services. 
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/3681892b-4943-4745-9393-3800616f6f72)
+
+- Install Active Directory Domain Services.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/4539bedc-c954-408b-98d4-9145ead6c0bb)
+
+- After Active Directory Domain Services is downloaded, the Local Server and All Server columns will appear.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/ed2c4ea3-6523-486d-b604-9ff8925f0dce)
