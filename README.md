@@ -33,26 +33,27 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 <h2>Deployment and Configuration Steps</h2>
 
+- Setup Resources in Azure
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/24339f52-82d8-46e6-95c5-1a04ca181637)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+- After you create your Azure account navigate to the Virtual Machine tab and click Create.
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/ef9cc8ce-9e51-4154-a003-4b1ec1369f69)
+
+
+- Create the Domain Controller VM (Windows Server 2022) named “DC-1”
+Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/5b167d98-98a1-4f76-aeea-5c5202676c74)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- After you fill out the necessary information along with your username and password(don't forget your username and password, you need it to log into your VM) click review/create wait for the validation process to complete, and click Create. 
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/64d72967-cd5e-4861-89dc-6a5ff024a548)
+
