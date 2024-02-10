@@ -145,7 +145,42 @@ Install Active Directory
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/f84972c1-7ae3-427e-aa95-aa7a4a48f980)
 
-- Hit Next until you get to the installation after the installation is complete restart the server Restart and then log back into DC-1 as user: mydomain.com\username.
+- Restart and then log back into DC-1 as user: zahran.com\labuser (or whatever username you used when you created the VM in the Azure portal.)
 
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/a7c85dec-1cb5-4e1c-b5d9-64eed1157f8d)
+
+Create an Admin and Standard User Account in AD
+
+
+- In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/b1ff6297-0c5d-4c2e-99f9-234c89db2387)
+
+- Create a new OU named “_ADMINS”
+
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/08d4d251-b502-4cac-8395-f86261c3b75b)
+
+
+- In the _ADMINS folder create a new employee named “Jane Doe” (same password) with the username of “jane_admin”
+
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/508e797e-5163-41db-b04c-82ee671044d6)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/c54135bb-b5f1-4358-b6d1-ecb76d32d54f)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/93a3859c-8a33-489e-b12a-429a862cbe3f)
+
+
+- Add jane_admin to the “Domain Admins” Security Group.
+- Log out/close the Remote Desktop connection to DC-1 and log back in as “zahran.com\jane_admin”.
+- User jane_admin as your admin account from now on
+
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/8262b0a5-a233-48c9-99bc-86cef36b2e14)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/6c21e7ad-a783-4084-bb35-65063c47261d)
+
+
