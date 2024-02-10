@@ -71,3 +71,20 @@ Take note of the Resource Group and Virtual Network (Vnet) that get created at t
 - Click IP configuration.
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/bf54e5f9-5c84-4a80-80b3-13850b8faba0)
+
+- Click Edit configuration set the IP address to static and hit save.
+
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/97068573-9c62-4de9-8e7e-c51a003ade9a)
+
+- Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created for DC-1.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/13cb9c1e-8759-481b-be1d-7055e209f016)
+
+- Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher).
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/3c88ad6f-a05f-4a1d-b5e4-6af97e3850f3)
+
+- Once the process of creating your second VM is done, go to the Virtual Machine section and make sure you have two VMs.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/52ba3a18-360f-4f6d-bf3b-c524a03f88cf)
