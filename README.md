@@ -131,3 +131,21 @@ Install Active Directory
 - After Active Directory Domain Services is downloaded, the Local Server and All Server columns will appear.
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/ed2c4ea3-6523-486d-b604-9ff8925f0dce)
+
+- Promote the Server to a domain controller.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/f3c28c89-e26e-4afc-b9c0-efa112e0a49f)
+
+
+- Setup a new forest as zahran.com (can be anything, just remember what it is)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/982e65db-999e-4f68-bc8e-11b66398740b)
+
+- Create a (DSRM) password (you won't need to enter this password again.)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/f84972c1-7ae3-427e-aa95-aa7a4a48f980)
+
+- Hit Next until you get to the installation after the installation is complete restart the server Restart and then log back into DC-1 as user: mydomain.com\username.
+
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/a7c85dec-1cb5-4e1c-b5d9-64eed1157f8d)
