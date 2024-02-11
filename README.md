@@ -217,3 +217,42 @@ Join Client-1 to your domain (zahran.com)
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/b96721e4-6ba3-4052-8ff5-bc69ff61af27)
 
 
+
+Setup Remote Desktop for non-administrative users on Client-1
+
+
+- Log into Client-1 as zahran.com\jane_admin and open system properties
+- Click “Remote Desktop”
+- Allow “domain users” access to remote desktop
+- You can now log into Client-1 as a normal, non-administrative user now
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/5bc47751-e2ec-4b7e-8325-b0f97f9f8e4b)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/68ab3009-2342-4aef-9d89-8dbafeb1e3fb)
+
+
+
+Create additional users and attempt to log into client-1 with one of the users
+
+
+- Login to DC-1 as jane_admin.
+- Open up Active Directory Users and Computers.
+- Create a new group "Domain Users"
+  
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/f1e044e9-50c7-4b60-93f2-5fe2c2dc8b32)
+
+
+- Any additional user you create can log into client-1 (For example I created a user named sea_domainuser).
+
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/e0f98528-8609-4766-9cdb-1f715d4744e2)
+
+- Click on the Users folder to view all your current users who can log into client-1.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/0f12a086-44af-44d3-8fb9-0707253cd00d)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/c4fe412f-ec65-45af-8a55-d2667d8e6066)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/5f2767f0-202a-4e10-93da-231e7068927f)
+
