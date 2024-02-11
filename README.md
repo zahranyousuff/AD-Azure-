@@ -184,3 +184,36 @@ Create an Admin and Standard User Account in AD
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/6c21e7ad-a783-4084-bb35-65063c47261d)
 
 
+
+Join Client-1 to your domain (zahran.com)
+
+
+- From the Azure Portal, set Client-1’s DNS settings to the DC-1’s Private IP address.
+
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/230fd218-d4dc-4de1-8690-6feee0b2fcc5)
+
+
+- From the Azure Portal, restart Client-1
+- Type ipconfig /all to check if your DNS server is the same as your domain controller.
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/10758ca8-de08-461c-8a72-8d67bf4294e4)
+
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/94a54cf0-16c1-4cd2-af73-ce47e69542b6)
+
+
+- Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
+
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/6f122eca-decf-43fb-98a7-db6086fd6d16)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/524452d4-396c-4dba-bb23-5a48b04e0619)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/f4802eb9-ec85-4f6e-a4be-065750039823)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/20fb05d9-c42b-455f-b065-a41c338609e1)
+
+![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/b96721e4-6ba3-4052-8ff5-bc69ff61af27)
+
+
