@@ -33,7 +33,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 <h2>Deployment and Configuration Steps</h2>
 
-Setup Resources in Azure
+<h1>Setup Resources in Azure </h1>
 <p>
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/24339f52-82d8-46e6-95c5-1a04ca181637)
@@ -88,7 +88,7 @@ Take note of the Resource Group and Virtual Network (Vnet) that get created at t
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/52ba3a18-360f-4f6d-bf3b-c524a03f88cf)
 
-Ensure Connectivity between the client and Domain Controller
+<h1>Ensure Connectivity between the client and Domain Controller</h1>
 
 
 - Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)
