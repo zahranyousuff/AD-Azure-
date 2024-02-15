@@ -31,9 +31,9 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 - Create additional users and attempt to log into client-1 with one of the users
 
 
-<h2>Deployment and Configuration Steps</h2>
+<h1>Deployment and Configuration Steps</h1>
 
-<h1>Setup Resources in Azure </h1>
+<h2>Setup Resources in Azure </h2>
 <p>
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/24339f52-82d8-46e6-95c5-1a04ca181637)
@@ -88,7 +88,7 @@ Take note of the Resource Group and Virtual Network (Vnet) that get created at t
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/52ba3a18-360f-4f6d-bf3b-c524a03f88cf)
 
-<h1>Ensure Connectivity between the client and Domain Controller</h1>
+<h2>Ensure Connectivity between the client and Domain Controller</h2>
 
 
 - Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)
@@ -108,7 +108,7 @@ Take note of the Resource Group and Virtual Network (Vnet) that get created at t
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/82768413-3708-443b-8111-be3895c2c50b)
 
-Install Active Directory
+<h2>Install Active Directory</h2>
 
 
 - Go to DC-1 open Server Manager, and click on Add roles and features.
@@ -149,7 +149,7 @@ Install Active Directory
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/a7c85dec-1cb5-4e1c-b5d9-64eed1157f8d)
 
-Create an Admin and Standard User Account in AD
+<h2>Create an Admin and Standard User Account in AD</h2>
 
 
 - In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
@@ -217,7 +217,7 @@ Join Client-1 to your domain (zahran.com)
 
 
 
-Setup Remote Desktop for non-administrative users on Client-1
+<h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
 
 
 - Log into Client-1 as zahran.com\jane_admin and open system properties
@@ -231,7 +231,7 @@ Setup Remote Desktop for non-administrative users on Client-1
 
 
 
-Create additional users and attempt to log into client-1 with one of the users
+<h2>Create additional users and attempt to log into client-1 with one of the users</h2>
 
 
 - Login to DC-1 as jane_admin.
@@ -255,3 +255,6 @@ Create additional users and attempt to log into client-1 with one of the users
 
 ![image](https://github.com/zahranyousuff/AD-Azure-/assets/159392784/5f2767f0-202a-4e10-93da-231e7068927f)
 
+
+
+<h2>Thank you for following along!</h2>
