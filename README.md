@@ -257,4 +257,4 @@ Join Client-1 to your domain (zahran.com)
 
 
 
-<h2>Thank you for following along!</h2>
+<h1>Thank you for following along!</h1>
